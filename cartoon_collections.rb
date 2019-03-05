@@ -17,8 +17,8 @@ end
 
 def find_the_cheese(possible_cheesy_items)
   cheeses = %(cheddar, gouda, camembert)
-  possible_cheesy_items.find do |cheese|
-    cheese.include?(cheese)
+  possible_cheesy_items.find do |potential_cheese|
+    cheese.include?(potential_cheese)
 end
 
 end
