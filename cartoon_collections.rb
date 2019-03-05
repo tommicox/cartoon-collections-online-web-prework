@@ -20,5 +20,5 @@ def find_the_cheese(maybe_cheese_types)
   maybe_cheese_types.find do |cheese|
     maybe_cheese_types.include(cheese)
 end
-end
+
 end
