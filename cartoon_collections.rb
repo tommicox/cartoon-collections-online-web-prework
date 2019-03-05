@@ -16,7 +16,8 @@ def long_planeteer_calls(short_words)
 end
 
 def find_the_cheese(possible_cheesy_items)
-  cheeses = % (cheddar gouda camembert)
+  cheeses = %(cheddar gouda camembert)
+  
   possible_cheesy_items.find do |potential_cheese|
     cheese.include?(potential_cheese)
 end
